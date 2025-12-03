@@ -1,93 +1,122 @@
-title: "Little Oaks Montessori — Daycare & Nursery"
-description: "The official website for Little Oaks Montessori, a Montessori-based daycare & nursery located in Nyamitanga, Mbarara, Uganda."
-tagline: "A safe, joyful, Montessori-based early childhood environment."
-author: "Little Oaks Montessori Administration"
+# =========================================================
+#   LITTLE OAKS MONTESSORI — V7 CONFIG (FINAL BUILD)
+#   Author: Letica M. Byamugisha
+#   Site: Montessori Daycare & Nursery, Nyamitanga – Mbarara
+# =========================================================
+
+# ------------------------
+# SITE BASICS
+# ------------------------
+title: "Little Oaks Montessori – Daycare & Nursery"
+description: "The official website for Little Oaks Montessori Daycare & Nursery in Nyamitanga, Mbarara. A safe, joyful and Montessori-based learning environment for children aged 1.5–6 years."
+
+tagline: "A Montessori-based early childhood center focused on independence, creativity and emotional growth."
+author: "Letica M. Byamugisha"
+
 theme: minima
-
-# Site Metadata
-url: "https://BudBudness.github.io"
-baseurl: "/LITTLE-OAKS-MONTESSORI"
 lang: "en-UG"
-timezone: "Africa/Kampala"
 
-# Contact
-email: "info@littleoaksmontessori.com"
-phone: "+256 700 000000"
-location: "Nyamitanga, Mbarara, Uganda"
+# ------------------------
+# URL SETTINGS
+# ------------------------
+url: "https://BudBudness.github.io"
+baseurl: "/LITTLE-OAKS-MONTESSORI"   # DO NOT REMOVE SLASH
 
-# Social Links (optional)
+# ------------------------
+# BRANDING
+# ------------------------
+logo: "/assets/img/logo.png"
+school_location: "Nyamitanga, Mbarara, Uganda"
+school_email: "info@littleoaksmontessori.ug"
+
+# Correct phone + WhatsApp
+school_phone: "+256762023393"
+school_whatsapp: "+254700466480"
+
+# ------------------------
+# SOCIAL LINKS
+# ------------------------
 social_links:
-  instagram: "https://instagram.com/littleoaksmontessori"
-  facebook: "https://facebook.com/littleoaksmontessori"
+  facebook: "https://facebook.com/littleoaksmontessorimbarara"
+  instagram: "https://instagram.com/littleoaksmontessorimbarara"
+  whatsapp: "https://wa.me/254700466480"
   tiktok: "https://tiktok.com/@littleoaksmontessori"
+  youtube: "https://youtube.com/@littleoaksmontessori"
 
-# Build Settings
+# ------------------------
+# SEO CONFIG (V7 UPGRADE)
+# ------------------------
+google_analytics: ""
+timezone: "Africa/Kampala"
 markdown: kramdown
-permalink: pretty
 highlighter: rouge
+permalink: pretty
+
+# ------------------------
+# SITEMAP + INDEXING
+# ------------------------
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-
-# SEO & Sitemap
-seo:
-  name: "Little Oaks Montessori School"
-  description: "Montessori daycare & nursery school in Nyamitanga, Mbarara."
-  type: "organization"
-  keywords:
-    - Montessori Mbarara
-    - Daycare Uganda
-    - Nursery School
-    - Early Childhood Education
-    - Little Oaks Montessori
+  - jekyll-feed
 
 sitemap:
   changefreq: "weekly"
-  priority: "1.0"
+  priority: 0.9
 
-# Navigation
-navigation:
+# ------------------------
+# NAVIGATION
+# ------------------------
+navbar:
   - name: "Home"
     link: "/"
   - name: "About Us"
-    link: "/about/"
+    link: "/about"
   - name: "Programs"
-    link: "/programs/"
+    link: "/programs"
   - name: "Admissions"
-    link: "/admissions/"
+    link: "/admissions"
+  - name: "Fees"
+    link: "/fees"
+  - name: "Gallery"
+    link: "/gallery"
   - name: "Contact"
-    link: "/contact/"
+    link: "/contact"
 
-# Collections
-collections:
-  programs:
-    output: true
-  staff:
-    output: true
-  notices:
-    output: true
+# ------------------------
+# BUILD OPTIMIZATION
+# ------------------------
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "LICENSE"
+  - "node_modules/"
+  - "package.json"
+  - "package-lock.json"
 
-# Defaults
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-      lang: "en"
+markdown_ext: "md,mkdown,markdown"
 
-# Images, Assets
-assets_dir: "assets"
-logo: "/assets/img/logo.png"
-favicon: "/assets/img/favicon.png"
+# ------------------------
+# SCHOOL META
+# ------------------------
+school:
+  mission: "To nurture confident, independent and emotionally balanced children."
+  vision: "To provide a world-class Montessori foundation in Uganda."
+  ages: "1.5 – 6 years"
+  classes:
+    - "Baby Class"
+    - "Middle Class"
+    - "Top Class"
+  hours:
+    weekdays: "7:30 AM – 5:00 PM"
+    weekends: "Closed"
 
-# Performance
-compress_html:
-  comments: ["<!--", "-->"]
-  clippings: all
-  endings: all
-  profile: false
-  blanklines: false
-  ignore:
-    envs: []
+# ------------------------
+# FOOTER
+# ------------------------
+footer:
+  copyright: "© Little Oaks Montessori — All rights reserved."
+  address: "Nyamitanga, Mbarara, Uganda"
+  email: "info@littleoaksmontessori.ug"
+  developer: "Built with ♥ using GitHub Pages V7"
