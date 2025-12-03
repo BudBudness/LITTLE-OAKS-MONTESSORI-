@@ -1,0 +1,30 @@
+LITTLE-OAKS-MONTESSORI-/
+│
+├── _config.yml
+├── README.md
+├── index.md
+│
+├── about.md
+├── programs.md
+├── admissions.md
+├── fees.md
+├── gallery.md
+├── contact.md
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── img/
+│   │   └── logo.png
+│   └── js/
+│       └── main.js
+│
+├── _includes/
+│   ├── header.html
+│   ├── footer.html
+│   ├── navbar.html
+│
+└── _layouts/
+    ├── default.html
+    ├── page.html
+    └── home.html
