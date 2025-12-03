@@ -1,11 +1,93 @@
-title: Montessori Daycare & Nursery
-description: "The official site of Montessori Daycare & Nursery — nurturing growth, curiosity, and independence in young children."
-# Extended description:
-tagline: "A Montessori-based early education center dedicated to inspiring a lifelong love of learning."
-author: "Montessori Daycare Staff"
+title: "Little Oaks Montessori — Daycare & Nursery"
+description: "The official website for Little Oaks Montessori, a Montessori-based daycare & nursery located in Nyamitanga, Mbarara, Uganda."
+tagline: "A safe, joyful, Montessori-based early childhood environment."
+author: "Little Oaks Montessori Administration"
 theme: minima
 
-# Optional: Customize social links, email, and more
-email: info@yourdomain.com
-url: "https://BudBudness.github.io/montessori-daycare" # Change to your actual repo URL.
-baseurl: "" # Keep as "" for user/organization site, set to "/repo-name" for project site.
+# Site Metadata
+url: "https://BudBudness.github.io"
+baseurl: "/LITTLE-OAKS-MONTESSORI"
+lang: "en-UG"
+timezone: "Africa/Kampala"
+
+# Contact
+email: "info@littleoaksmontessori.com"
+phone: "+256 700 000000"
+location: "Nyamitanga, Mbarara, Uganda"
+
+# Social Links (optional)
+social_links:
+  instagram: "https://instagram.com/littleoaksmontessori"
+  facebook: "https://facebook.com/littleoaksmontessori"
+  tiktok: "https://tiktok.com/@littleoaksmontessori"
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO & Sitemap
+seo:
+  name: "Little Oaks Montessori School"
+  description: "Montessori daycare & nursery school in Nyamitanga, Mbarara."
+  type: "organization"
+  keywords:
+    - Montessori Mbarara
+    - Daycare Uganda
+    - Nursery School
+    - Early Childhood Education
+    - Little Oaks Montessori
+
+sitemap:
+  changefreq: "weekly"
+  priority: "1.0"
+
+# Navigation
+navigation:
+  - name: "Home"
+    link: "/"
+  - name: "About Us"
+    link: "/about/"
+  - name: "Programs"
+    link: "/programs/"
+  - name: "Admissions"
+    link: "/admissions/"
+  - name: "Contact"
+    link: "/contact/"
+
+# Collections
+collections:
+  programs:
+    output: true
+  staff:
+    output: true
+  notices:
+    output: true
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      lang: "en"
+
+# Images, Assets
+assets_dir: "assets"
+logo: "/assets/img/logo.png"
+favicon: "/assets/img/favicon.png"
+
+# Performance
+compress_html:
+  comments: ["<!--", "-->"]
+  clippings: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
