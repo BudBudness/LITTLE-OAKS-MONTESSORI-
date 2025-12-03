@@ -1,0 +1,11 @@
+title: Montessori Daycare & Nursery
+description: "The official site of Montessori Daycare & Nursery — nurturing growth, curiosity, and independence in young children."
+# Extended description:
+tagline: "A Montessori-based early education center dedicated to inspiring a lifelong love of learning."
+author: "Montessori Daycare Staff"
+theme: minima
+
+# Optional: Customize social links, email, and more
+email: info@yourdomain.com
+url: "https://BudBudness.github.io/montessori-daycare" # Change to your actual repo URL.
+baseurl: "" # Keep as "" for user/organization site, set to "/repo-name" for project site.
