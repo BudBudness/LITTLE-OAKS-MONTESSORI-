@@ -1,0 +1,91 @@
+/*
+ * Little Oaks Montessori – Custom Styles
+ * V7 Site Styling
+ */
+
+/* Base customizations for Minima theme */
+:root {
+  --primary-color: #4a7c59;
+  --secondary-color: #f9f5e3;
+  --text-color: #333;
+  --accent-color: #e07b39;
+}
+
+/* Header styling */
+.site-header {
+  background-color: var(--primary-color);
+  border-bottom: 3px solid var(--accent-color);
+}
+
+.site-title,
+.site-title:visited {
+  color: white;
+}
+
+/* Navigation links */
+.page-link {
+  color: white;
+}
+
+.page-link:hover {
+  color: var(--secondary-color);
+}
+
+/* Main content area */
+.page-content {
+  background-color: var(--secondary-color);
+  padding: 30px 0;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: var(--primary-color);
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.site-footer a {
+  color: var(--secondary-color);
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .page-content {
+    padding: 15px;
+  }
+  
+  table {
+    font-size: 14px;
+  }
+}
