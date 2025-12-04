@@ -80,7 +80,7 @@ th {
 }
 
 /* Responsive adjustments */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .page-content {
     padding: 15px;
   }
